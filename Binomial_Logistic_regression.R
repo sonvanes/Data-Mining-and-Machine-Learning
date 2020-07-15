@@ -1,5 +1,6 @@
 library(caTools)
 library(caret)
+
 data.frame<-read.csv("D:/PG/Data Mining/Projects/Final Report/tesco1.csv")
 str(data.frame)
 data.frame <- tesco[,-c(3,4,5,6,7,8,9,10,27)]
